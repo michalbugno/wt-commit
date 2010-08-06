@@ -1,0 +1,19 @@
+h1. wt-commit
+
+Wt-commit is a  "whatthecommit":http://whatthecommit.com commit message fetcher and git commiter. It is designed for people who truly hate their collaborators and/or coworkers.
+
+h2. usage
+
+Simply run 
+
+`gem install wt-commit`
+
+Then, after adding files to your current commit, run `wt-commit` from the command line to commit your changes with a newly fetched commit message.
+
+h2. contributing
+
+Ideas/problems? Create an issue or fork the project, add tests, code and send me a pull request.
+
+h2. license
+
+Copyright (c) 2010 Antek Piechnik, released under the MIT license
