@@ -1,0 +1,4 @@
+#!/usr/bin/evn ruby
+require 'wt-commit'
+
+`git commit -m "#{WtCommit::fetch_message}"`
