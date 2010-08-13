@@ -6,9 +6,9 @@ h2. usage
 
 Simply run 
 
-`gem install wt-commit`
+@gem install wt-commit@
 
-Then, after adding files to your current commit, run `wt-commit` from the command line to commit your changes with a newly fetched commit message.
+Then, after adding files to your current commit, run @wt-commit@ from the command line to commit your changes with a newly fetched commit message.
 
 h2. contributing
 
