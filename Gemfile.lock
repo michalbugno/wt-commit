@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    wt-commit (0.0.1)
+      hpricot
+      httparty
+
+GEM
+  specs:
+    crack (0.1.8)
+    hpricot (0.8.2)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    rake (0.8.7)
+    rspec (1.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hpricot
+  httparty
+  rake
+  rspec (>= 1.2.9)
+  wt-commit!
