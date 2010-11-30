@@ -2,10 +2,20 @@ GEM
   remote: http://rubygems.org/
   specs:
     crack (0.1.8)
+    diff-lcs (1.1.2)
     hpricot (0.8.3)
     httparty (0.6.1)
       crack (= 0.1.8)
-    rspec (1.2.9)
+    rspec (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
+      rspec-mocks (~> 2.0.1)
+    rspec-core (2.0.1)
+    rspec-expectations (2.0.1)
+      diff-lcs (>= 1.1.2)
+    rspec-mocks (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
 
 PLATFORMS
   ruby
@@ -13,4 +23,4 @@ PLATFORMS
 DEPENDENCIES
   hpricot
   httparty
-  rspec (~> 1.2.7)
+  rspec
